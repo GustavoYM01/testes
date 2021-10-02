@@ -93,7 +93,7 @@ public class JavaApplication2 {
                                         else if (mediaNotas >= 4.0 && mediaNotas <= 7.0 && totalFaltas <= 36) {
                                             System.out.printf("Exame final | nota: %.2f | faltas: %d%n", mediaNotas, totalFaltas);
                                         }
-                                        else if (mediaNotas < 40 || totalFaltas > 36) {
+                                        else if (mediaNotas < 4.0 || totalFaltas > 36) {
                                             System.out.printf("Reprovado(a) | nota: %.2f | faltas: %d%n", mediaNotas, totalFaltas);
                                         }
                                         else {
