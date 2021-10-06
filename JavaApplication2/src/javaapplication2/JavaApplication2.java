@@ -23,7 +23,7 @@ public class JavaApplication2 {
         System.out.print("Digite a nota do 1° bimestre: ");
         double nota1 = sc.nextDouble();
         
-        if (nota1 < 0 || nota1 == 0 || nota1 > 10) {
+        if (nota1 < 0 || nota1 > 10) {
             System.out.println("Nota inválida!");
         }
         else {
@@ -38,7 +38,7 @@ public class JavaApplication2 {
                 System.out.print("Digite a nota do 2° bimestre: ");
                 double nota2 = sc.nextDouble();
             
-                if (nota2 < 0 || nota2 == 0 || nota2 > 10) {
+                if (nota2 < 0 || nota2 > 10) {
                     System.out.println("Nota inválida!");
                 }
                 
@@ -54,7 +54,7 @@ public class JavaApplication2 {
                         System.out.print("Digite a nota do 3° bimestre: ");
                         double nota3 = sc.nextDouble();
             
-                        if (nota3 < 0 || nota3 == 0 || nota3 > 10) {
+                        if (nota3 < 0 || nota3 > 10) {
                             System.out.println("Nota inválida!");
                         }
                         
@@ -70,7 +70,7 @@ public class JavaApplication2 {
                                 System.out.print("Digite a nota do 4° bimestre: ");
                                 double nota4 = sc.nextDouble();
             
-                                if (nota4 < 0 || nota4 == 0 || nota4 > 10) {
+                                if (nota4 < 0 || nota4 > 10) {
                                     System.out.println("Nota inválida!");
                                 }
                                 
